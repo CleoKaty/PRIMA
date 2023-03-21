@@ -1,20 +1,52 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8" />
-<title>Steckbrief</title>
-<style>
-body {
-	font-family: arial;
-	font-size: small;
-	background: #eeeee
-}
-</style>
+	<meta charset="utf-8" />
+	<title>Steckbrief</title>
+	<style>
+		body {
+			font-family: arial;
+			font-size: small;
+			font-size: 2.5vh;
+			color: white;
+		}
+
+		div {
+			display: flex;
+			justify-content: center;
+		}
+
+		.meme {
+			background-size: cover;
+			height: 100vh;
+			position: relative;
+		}
+
+		#myVideo {
+			position: fixed;
+			right: 0;
+			bottom: 0;
+			height: 100vh;
+			width: 100vw;
+		}
+	</style>
 </head>
+
 <body>
 	<!-- Hier die Links zu den gelösten Aufgaben einstellen, aktuelle oben, alte stehen lassen! Format: Aufgabenbezeichnung, Datum -->
-	<div>
-		First FUDGE project - a cube <b></b> Link: <a href="https://github.com/CleoKaty/PRIMA/blob/main/project1%20-%20cube/index.html">hier</a>
+	
+	<video autoplay muted loop id="myVideo">
+		<source src="/0001-0500.mp4" type="video/mp4">
+	</video>
+	<div><a href="https://github.com/CleoKaty/PRIMA.git">Repository</a></div>
+	<div class="meme">
+		<ul>
+			<h1>Projects </h1>
+			<li><a href="https://github.com/CleoKaty/PRIMA/blob/main/project1%20-%20cube/index.html">Cube</a></li>
+			<li><a href="https://github.com/CleoKaty/PRIMA/blob/main/sonic/index.html">Cube</a></li>
+		</ul>
 	</div>
 </body>
+
 </html>
